@@ -1,5 +1,9 @@
 nav {
     border-bottom: 1px solid black;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
 }
 
 ol {
@@ -11,6 +15,14 @@ ol {
 .nav_items{
    display: inline-block;
 }
+header{
+    background-image: url("img/header.jpg");
+    height:300px;
+}
+header p{
+    color:white;
+    text-align: center;
+}
 .title{
     background-color: #BABAE2;
     text-align: center;
@@ -18,7 +30,10 @@ ol {
     font-size: 20px;
     font-weight: bold ;
 }
-/*body{
-    background-color: yellow;
-}*/
-
+#footer{
+    background-color: #4C5B75;
+    color:white;
+}
+#footer a{
+    text-decoration: none;
+}
