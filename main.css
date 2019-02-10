@@ -1,3 +1,7 @@
+body{
+background-color:#F4F4F4;
+}
+
 nav {
     border-bottom: 1px solid black;
     text-decoration: none;
@@ -16,23 +20,31 @@ ol {
    display: inline-block;
 }
 header{
-    background-image: url("img/header.jpg");
-    height:300px;
+color:white;
+}
+h1{
+  position: absolute;
+  top: 50%;
+  font-size:40px;
+  transform: translate(5%, -50%);
 }
 header p{
     color:white;
     text-align: center;
 }
-.title{
+h2{
     background-color: #BABAE2;
     text-align: center;
     text-transform: uppercase;
-    font-size: 20px;
-    font-weight: bold ;
+    /*font-size: 20px;
+    font-weight: bold ;*/
 }
 #footer{
+     display:flex;
+     align-items:center;
     background-color: #4C5B75;
     color:white;
+    height:60px;
 }
 #footer a{
     text-decoration: none;
@@ -41,13 +53,9 @@ header p{
 #more-flex{
 display:flex;
 flex-direction:row;
+text-align:center;
 }
-/*.center{
-  margin: auto;
-  width: 50%;
-  border: 3px solid green;
-  padding: 10px;
-}*/
+
 p{
 text-align: center;
 }
@@ -68,13 +76,37 @@ width:100%;
 }
 
 #left-align{
+padding-left:70px;
 text-align:left;
 display:inline;
+
 }
-#right-align{
-text-align:right;
-}
+
 #try-flex{
 display:flex;
 flex-direction:row;
+justify-content:center;
+text-align:center;
+
+}
+#footer ol{
+display:inline;
+position:absolute;
+right:150px;
+
+}
+.footer-links{
+color:white;
+padding-left:10px;
+}
+/*color for the buttons*/
+button{
+/*background-color:white;*/
+border:2px solid black;
+color:#BABAE2;
+text-align:center;
+padding:2px 3px 2px 3px;
+background-color:#F4F4F4;
+margin-left:auto;
+margin-right:auto;
 }
