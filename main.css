@@ -141,3 +141,14 @@ text-align:center;
 }
 
 /*styling for contact*/
+input,textarea{
+margin-top:20px;
+margin-left:20px;
+width:400px;
+
+}
+#form-submit{
+color:white;
+background-color:#4C5B75;
+border:groove;
+}
