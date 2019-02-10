@@ -37,3 +37,24 @@ header p{
 #footer a{
     text-decoration: none;
 }
+
+#more-flex{
+display:flex;
+flex-direction:row;
+}
+/*.center{
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}*/
+p{
+text-align: center;
+}
+.center-image{
+ display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+
+}
