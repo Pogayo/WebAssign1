@@ -58,3 +58,23 @@ text-align: center;
   width: 75%;
 
 }
+#order-flex{
+display:flex;
+flex-direction:row;
+}
+#order-flex img{
+
+width:100%;
+}
+
+#left-align{
+text-align:left;
+display:inline;
+}
+#right-align{
+text-align:right;
+}
+#try-flex{
+display:flex;
+flex-direction:row;
+}
