@@ -197,3 +197,100 @@ border:groove;
     width:100px;
     text-align: center;
 }
+#team{
+    background-color:#9D71EC;
+    color: white;
+    font-size:18px;
+    margin: 0px;
+}
+.people{
+    width:150px;
+    border-radius:50%;  /*getting a rounded image*/
+    height:150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid white;
+
+
+}
+#people{
+    display:grid;
+    grid-template-columns: 50fr 50fr;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#Atieno,#Diana,#Faith,#Perez{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+#teamHead,#what-we-do-head{
+    font-size:40px;
+    background-color:#9D71EC;
+    color:#CBCBCB;
+}
+#who-are-we-content{
+    display:grid;
+    grid-template-columns: 7fr 3fr;
+
+
+}
+#who-are-we-img,#our-history-content img{
+    width:inherit;
+    height:300px;
+}
+#who-we-are{
+    margin:0px;
+    background-color: #9D71EC;
+    color:white;
+    font-size:18px;
+}
+#our-history{
+    background-color: #CBCBCB;
+    color:white;
+    font-size:18px;
+    margin:0px;
+}
+#our-history h2{
+    background-color: #CBCBCB;
+    font-size:40px;
+
+}
+#our-history-content{
+    display:grid;
+    grid-template-columns: 4fr 6fr;
+     padding-right: 100px;
+}
+#footer-about{
+    display:flex;
+    align-items:center;
+    background-color: #CBCBCB;
+    color:white;
+    height:60px;
+}
+#gallery{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap:50px;
+}
+#gallery>div img{
+    width:100%;
+    height:250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#gallery>div{
+    height:340px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#gallery>div p{
+
+}
+#intro{
+    height:250px;
+    background-color: #9D71EC;
+}
