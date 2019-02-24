@@ -23,16 +23,17 @@ form.addEventListener('submit',($event)=>{
         message.style.border="thin solid green;"
         //getting the message div
         var messagediv=document.getElementById('message');
-        //removing any existing children
+        //removing any existing children(messages)
         if (messagediv.hasChildNodes()) {
             messagediv.removeChild(messagediv.childNodes[0]);
         }
-        //adding the cuurent message
+        //adding the curent message
         messagediv.appendChild(message);
         messagediv.style.display="block";
         form.reset();
     }
 });
 console.log(name);
+
 
 
