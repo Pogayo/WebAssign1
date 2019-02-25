@@ -290,7 +290,22 @@ border:groove;
 #gallery>div p{
 
 }
-#intro{
+
+#things-to-do{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 50px;
+    padding-left:75px;
+    padding-right:75px;
+}
+.img-full{
+    width:100%;
     height:250px;
+}
+.gal-headings{
+    height:30px;
     background-color: #9D71EC;
+    text-align: center;
+    text-transform: uppercase;
+    text-align:center;
 }
